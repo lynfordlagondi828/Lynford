@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <type name="Magento\ConfigurableProduct\Block\Product\View\Type\Configurable">
+        <plugin name="lynford_configurable"
+                type="Lynford\ConfigurableOptions\Plugin\Magento\ConfigurableProduct\Block\Product\View\Type\Configurable"
+                sortOrder="10"/>
+    </type>
+    <type name="Magento\ConfigurableProduct\Model\Product\Type\Configurable">
+        <plugin name="lynford_configurable_model_configurable"
+                type="Lynford\ConfigurableOptions\Plugin\Model\Product\Type\Configurable" sortOrder="10"/>
+    </type>
+</config>
